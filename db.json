@@ -1,0 +1,74 @@
+[
+  {
+    "id" : 0,
+    "informacie" : {
+      "nazov" : "",
+      "hlavna kategoria" : "",
+      "vedlajsia kategoria" : "",
+      "logo" : ""
+      
+    },
+    "kratky popis" : "",
+    "otvaracie hodiny" : "",
+    "termin konania" : "",
+    "adresa" : {
+      "ulica" : "",
+      "supisne cislo" : "",
+      "obec" : "",
+      "psc" : "",
+      "gps" :{
+        "long":"",
+        "lati":""
+      },
+      "poznamka" : ""
+    },
+    "kontakt" : {
+      "web" : "",
+      "email" : "",
+      "telefon" : "",
+      "link na dokument" : "",
+      "link na socialne siete" : "",
+      "link na ine portaly" : ""
+      
+    },
+    "rosirene informacie" : "",
+    "galeria" : "",
+    "tagy" : ""
+  }, {
+    "id" : 1,
+    "informacie" : {
+      "nazov" : "",
+      "hlavna kategoria" : "",
+      "vedlajsia kategoria" : "",
+      "logo" : ""
+      
+    },
+    "kratky popis" : "",
+    "otvaracie hodiny" : "",
+    "termin konania" : "",
+    "adresa" : {
+      "ulica" : "",
+      "supisne cislo" : "",
+      "obec" : "",
+      "psc" : "",
+      "gps" :{
+        "long":"",
+        "lati":""
+      },
+      "poznamka" : ""
+    },
+    "kontakt" : {
+      "web" : "",
+      "email" : "",
+      "telefon" : "",
+      "link na dokument" : "",
+      "link na socialne siete" : "",
+      "link na ine portaly" : ""
+      
+    },
+    "rosirene informacie" : "",
+    "galeria" : "",
+    "tagy" : ""
+  }
+  
+]
