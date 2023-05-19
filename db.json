@@ -51,6 +51,58 @@
         "2":"string",
         "3":"string"}
     
+  },
+     {
+    "event_id" : 1,
+    "main_category":"event",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "termin_konania" :{
+        "from":"date",
+        "to":"date"
+      }
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "otvaracie hodiny" : {
+      "pon_od":"date",
+      "pon_do":"date"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+    
   }
   
 ], "poi":[
