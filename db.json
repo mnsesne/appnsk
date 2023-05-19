@@ -1,0 +1,298 @@
+{
+  "udalsot":[
+  {
+    "event_id" : 0,
+    "main_category":"event",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "termin_konania" :{
+        "from":"date",
+        "to":"date"
+      }
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "otvaracie hodiny" : {
+      "pon_od":"date",
+      "pon_do":"date"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+    
+  }
+  
+], "poi":[
+  {
+    "event_id" : 0,
+    "main_category":"poi",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "termin_konania" :{
+        "from":"date",
+        "to":"date"
+      }
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "agneda" : {
+      "popis agendy":"string",
+      "link":"string"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+    
+  }
+  
+], "school":[
+  {
+    "event_id" : 0,
+    "main_category":"school",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "nadriadene_skolske" : "string"
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "agneda" : {
+      "popis agendy":"string",
+      "link":"string"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"
+    }, 
+    "odbory" : {
+      "1":{
+        "nazov":"string",
+        "pocet":"int",
+        "rok":"string"
+      },
+       "2":{
+        "nazov":"string",
+        "pocet":"int",
+        "rok":"string"
+      }
+      
+    }
+    
+  }
+    
+  
+],
+"social":[
+  {
+    "event_id" : 0,
+    "main_category":"social",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "forma" : "string"
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "agneda" : {
+      "popis agendy":"string",
+      "link":"string"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"
+    }, 
+    "kapacita" : {
+      "muzi":"int",
+      "zeny":"int",
+      "cakatelia":"int"
+      
+    }
+    
+  }
+    
+  
+],"lekaren":[
+  {
+    "event_id" : 0,
+    "main_category":"lekaren",
+    "information" : {
+      "name" : "string",
+      "side_category" : "string",
+      "logo" : "cesta",
+      "short_desc":"string",
+      "identifikator":"string"
+     
+    },
+   
+    "adresa" : {
+      "ulica" : "string",
+      "supisne cislo" : "string",
+      "obec" : "string",
+      "psc" : "string",
+      "gps" :{
+        "long":"double",
+        "lati":"double"
+      },
+      "poznamka" : "string"
+    },
+    
+    "kontakt" : {
+      "web" : "string",
+      "email" : "string",
+      "telefon" : "string",
+      "link na dokument" : "string",
+      "link na socialne siete" : {
+        "facebook":"string",
+        "instagram":"string",
+        "twitter":"string"},
+      "link na ine portaly" :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+      
+    },
+    "prevadzkovatel":{
+      "nazov_organizacie":"string",
+      "ico":"int",
+      "ulica":"string",
+      "supisne":"string",
+      "PSC":"string",
+      "obec":"string",
+      "poznamka":"string"
+    },
+    "otvaracie hodiny" : {
+      "pon_od":"date",
+      "pon_do":"date"
+      
+    },
+    "rosirene informacie" : "string",
+    "galeria"  :  {
+        "1":"string",
+        "2":"string",
+        "3":"string"}
+    
+  }
+  
+]}
