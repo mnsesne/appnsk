@@ -453,4 +453,76 @@
         "3":"string"
     }
   }
+],"map":[
+  {
+    "event_id" : 0,
+    "main_category":"event",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "poi_id" : 0,
+    "main_category":"poi",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "school_id" :0,
+    "main_category":"school",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "social_service_id" : 0,
+    "main_category":"social",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "pharmacy_id" : 0,
+    "main_category":"pharmacy",
+     "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "event_id" : 1,
+    "main_category":"event",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "poi_id" : 1,
+    "main_category":"poi",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "school_id" :1,
+    "main_category":"school",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "social_service_id" : 1,
+    "main_category":"social",
+    "name":"strting",
+    "long":"double",
+    "lat":"double"
+  },
+  {
+    "pharmacy_id" : 1,
+    "main_category":"pharmacy",
+     "name":"strting",
+    "long":"double",
+    "lat":"double"
+  }
+  
 ]}
