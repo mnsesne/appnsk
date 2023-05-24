@@ -1,223 +1,213 @@
 {
-  "udalsot":[
+  "events":[
   {
-    "event_id" : 0,
-    "main_category":"event",
-    "information" : {
-      "name" : "string",
-      "side_category" : "string",
-      "logo" : "cesta",
-      "short_desc":"string",
-      "termin_konania" :{
-        "from":"date",
-        "to":"date"
-      }
-    },
-   
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
-      "psc" : "string",
-      "gps" :{
-        "long":"double",
-        "lati":"double"
-      },
-      "poznamka" : "string"
-    },
-    "kontakt" : {
-      "web" : "string",
-      "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
-        "facebook":"string",
-        "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
-        "1":"string",
-        "2":"string",
-        "3":"string"}
-      
-    },
-    "otvaracie hodiny" : {
-      "pon_od":"date",
-      "pon_do":"date"
-      
-    },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
-        "1":"string",
-        "2":"string",
-        "3":"string"}
-    
-  },
-     {
     "event_id" : 1,
     "main_category":"event",
-    "information" : {
+    "informations" : 
+    {
       "name" : "string",
       "side_category" : "string",
       "logo" : "cesta",
-      "short_desc":"string",
-      "termin_konania" :{
+      "brief_description":"string",
+      "date" :
+      {
         "from":"date",
         "to":"date"
       }
     },
    
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
+    "address" : 
+    {
+      "street" : "string",
+      "reg_number" : "string",
+      "city" : "string",
       "psc" : "string",
-      "gps" :{
+      "gps" :
+      {
         "long":"double",
-        "lati":"double"
+        "lat":"double"
       },
-      "poznamka" : "string"
+      "note" : "string"
     },
-    "kontakt" : {
+    "contact" : 
+    {
       "web" : "string",
       "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
+      "tel_number" : "string",
+      "document" : "string",
+      "social_networks" : 
+      {
         "facebook":"string",
         "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
+        "twitter":"string"
+      },
+      "portals" :  
+      {
         "1":"string",
         "2":"string",
-        "3":"string"}
-      
+        "3":"string"
+      }
     },
-    "otvaracie hodiny" : {
-      "pon_od":"date",
-      "pon_do":"date"
+     "open_hours" : 
+    {
+      "mon_from":"date",
+      "mon_to":"date",
       
+      "tue_from":"date",
+      "tue_to":"date",
+
+      "wed_from":"date",
+      "wed_to":"date",
+
+      "thu_from":"date",
+      "thu_to":"date",
+
+      "fri_from":"date",
+      "fri_to":"date",
+
+      "sat_from":"date",
+      "sat_to":"date",
+
+      "sun_from":"date",
+      "sun_to":"date",
+      
+      "description":"string"
     },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
-        "1":"string",
-        "2":"string",
-        "3":"string"}
+    "description" : "string",
+    "gallery"  :  
+    {
+      "1":"string",
+      "2":"string",
+      "3":"string"
+    }
     
   }
   
-], "poi":[
+], "pois":[
   {
-    "event_id" : 0,
+    "poi_id" : 1,
     "main_category":"poi",
-    "information" : {
+    "informations" : 
+    {
       "name" : "string",
       "side_category" : "string",
       "logo" : "cesta",
-      "short_desc":"string",
-      "termin_konania" :{
-        "from":"date",
-        "to":"date"
-      }
+      "brief_description":"string"
     },
    
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
+    "address" : {
+      "street" : "string",
+      "reg_number" : "string",
+      "city" : "string",
       "psc" : "string",
-      "gps" :{
+      "gps" :
+      {
         "long":"double",
-        "lati":"double"
+        "lat":"double"
       },
-      "poznamka" : "string"
+      "note" : "string"
     },
-    "kontakt" : {
+    "contact" : 
+    {
       "web" : "string",
       "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
+      "tel_number" : "string",
+      "document" : "string",
+      "social_networks" :
+      {
         "facebook":"string",
         "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
+        "twitter":"string"
+      },
+      "portals" :  
+      {
         "1":"string",
         "2":"string",
-        "3":"string"}
-      
+        "3":"string"
+      } 
     },
-    "agneda" : {
-      "popis agendy":"string",
-      "link":"string"
-      
+    "agenda" : 
+    {
+      "agenda_description":"string",
+      "link":"string"  
     },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
+    "description" : "string",
+    "gallery"  : 
+    {
         "1":"string",
         "2":"string",
-        "3":"string"}
-    
+        "3":"string"
+    }
   }
   
-], "school":[
+], "schools":[
   {
-    "event_id" : 0,
+    "school_id" : 1,
     "main_category":"school",
-    "information" : {
+    "informations" : 
+    {
       "name" : "string",
       "side_category" : "string",
       "logo" : "cesta",
-      "short_desc":"string",
-      "nadriadene_skolske" : "string"
+      "brief_description":"string",
+      "superior_facility" : "string"
     },
    
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
+    "address" : 
+    {
+      "street" : "string",
+      "reg_number" : "string",
+      "city" : "string",
       "psc" : "string",
-      "gps" :{
+      "gps" :
+      {
         "long":"double",
-        "lati":"double"
+        "lat":"double"
       },
-      "poznamka" : "string"
+      "note" : "string"
     },
-    "kontakt" : {
+    "contact" : 
+    {
       "web" : "string",
       "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
+      "tel_number" : "string",
+      "document" : "string",
+      "social_networks" :
+      {
         "facebook":"string",
         "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
+        "twitter":"string"
+      },
+      "portals" :  
+      {
         "1":"string",
         "2":"string",
-        "3":"string"}
+        "3":"string"
+      }
       
     },
-    "agneda" : {
-      "popis agendy":"string",
+    "agenda" : 
+    {
+      "agenda_description":"string",
       "link":"string"
-      
     },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
+    "description" : "string",
+    "gallery"  :  
+    {
         "1":"string",
         "2":"string",
         "3":"string"
     }, 
-    "odbory" : {
+    "departments" : {
       "1":{
-        "nazov":"string",
-        "pocet":"int",
-        "rok":"string"
+        "dep_name":"string",
+        "dep_amount":"int",
+        "dep_year":"string"
       },
        "2":{
-        "nazov":"string",
-        "pocet":"int",
-        "rok":"string"
+        "dep_name":"string",
+        "dep_amount":"int",
+        "dep_year":"string"
       }
       
     }
@@ -226,125 +216,160 @@
     
   
 ],
-"social":[
+"social_services":[
   {
-    "event_id" : 0,
+    "social_service_id" : 1,
     "main_category":"social",
-    "information" : {
+    "informations" : 
+    {
       "name" : "string",
       "side_category" : "string",
       "logo" : "cesta",
-      "short_desc":"string",
-      "forma" : "string"
+      "brief_description":"string",
+      "form" : "string"
     },
    
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
+    "address" : 
+    {
+      "street" : "string",
+      "reg_number" : "string",
+      "city" : "string",
       "psc" : "string",
-      "gps" :{
+      "gps" :
+      {
         "long":"double",
-        "lati":"double"
+        "lat":"double"
       },
-      "poznamka" : "string"
+      "note" : "string"
     },
-    "kontakt" : {
+    "contact" : 
+    {
       "web" : "string",
       "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
+      "tel_number" : "string",
+      "document" : "string",
+      "social_networks" : 
+      {
         "facebook":"string",
         "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
+        "twitter":"string"
+      },
+      "portals" :  
+      {
         "1":"string",
         "2":"string",
-        "3":"string"}
+        "3":"string"
+      }
       
     },
-    "agneda" : {
-      "popis agendy":"string",
+    "agenda" : 
+    {
+      "agenda_description":"string",
       "link":"string"
-      
     },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
+    "description" : "string",
+    "gallery"  :  
+    {
         "1":"string",
         "2":"string",
         "3":"string"
     }, 
-    "kapacita" : {
-      "muzi":"int",
-      "zeny":"int",
-      "cakatelia":"int"
-      
-    }
-    
+    "capacity" : 
+    {
+      "men":"int",
+      "women":"int",
+      "waiters":"int"  
+    } 
   }
     
   
-],"lekaren":[
+],"pharmacies":[
   {
-    "event_id" : 0,
-    "main_category":"lekaren",
-    "information" : {
+    "pharmacy_id" : 0,
+    "main_category":"pharmacy",
+    "informations" :
+    {
       "name" : "string",
       "side_category" : "string",
       "logo" : "cesta",
-      "short_desc":"string",
-      "identifikator":"string"
-     
+      "brief_description":"string",
+      "identificator":"string"
     },
    
-    "adresa" : {
-      "ulica" : "string",
-      "supisne cislo" : "string",
-      "obec" : "string",
+    "address" :
+    {
+      "street" : "string",
+      "reg_number" : "string",
+      "city" : "string",
       "psc" : "string",
-      "gps" :{
+      "gps" :
+      {
         "long":"double",
-        "lati":"double"
+        "lat":"double"
       },
-      "poznamka" : "string"
+      "note" : "string"
     },
     
-    "kontakt" : {
+    "contact" : 
+    {
       "web" : "string",
       "email" : "string",
-      "telefon" : "string",
-      "link na dokument" : "string",
-      "link na socialne siete" : {
+      "tel_number" : "string",
+      "documents" : "string",
+      "social_networks" :
+      {
         "facebook":"string",
         "instagram":"string",
-        "twitter":"string"},
-      "link na ine portaly" :  {
+        "twitter":"string"
+      },
+      "portals" : 
+      {
         "1":"string",
         "2":"string",
-        "3":"string"}
-      
+        "3":"string"
+      }
     },
-    "prevadzkovatel":{
-      "nazov_organizacie":"string",
+    "organisation":
+    {
+      "org_name":"string",
       "ico":"int",
-      "ulica":"string",
-      "supisne":"string",
-      "PSC":"string",
-      "obec":"string",
-      "poznamka":"string"
+      "org_street":"string",
+      "org_reg_number":"string",
+      "org_psc":"string",
+      "org_city":"string",
+      "org_note":"string"
     },
-    "otvaracie hodiny" : {
-      "pon_od":"date",
-      "pon_do":"date"
+    "open_hours" : 
+    {
+      "mon_from":"date",
+      "mon_to":"date",
       
+      "tue_from":"date",
+      "tue_to":"date",
+
+      "wed_from":"date",
+      "wed_to":"date",
+
+      "thu_from":"date",
+      "thu_to":"date",
+
+      "fri_from":"date",
+      "fri_to":"date",
+
+      "sat_from":"date",
+      "sat_to":"date",
+
+      "sun_from":"date",
+      "sun_to":"date",
+      
+      "description":"string"
     },
-    "rosirene informacie" : "string",
-    "galeria"  :  {
+    "description" : "string",
+    "gallery"  :  
+    {
         "1":"string",
         "2":"string",
-        "3":"string"}
-    
+        "3":"string"
+    }
   }
-  
 ]}
