@@ -1,6 +1,6 @@
 {
   "events":[
-   {
+  {
     "event_id" : 0,
     "main_category":"event",
     "informations" : 
@@ -41,12 +41,8 @@
         "instagram":"string",
         "twitter":"string"
       },
-      "portals" :  
-      {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-      }
+      "portals" : ["string","string","string"] 
+      
     },
      "open_hours" : 
     {
@@ -74,14 +70,8 @@
       "description":"string"
     },
     "description" : "string",
-    "gallery"  :  
-    {
-      "1":"string",
-      "2":"string",
-      "3":"string"
-    }
-    
-  },{
+    "gallery"  :  ["cesta","cesta","cesta"]
+  }, {
     "event_id" : 1,
     "main_category":"event",
     "informations" : 
@@ -122,12 +112,8 @@
         "instagram":"string",
         "twitter":"string"
       },
-      "portals" :  
-      {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-      }
+      "portals" : ["string","string","string"] 
+      
     },
      "open_hours" : 
     {
@@ -155,13 +141,7 @@
       "description":"string"
     },
     "description" : "string",
-    "gallery"  :  
-    {
-      "1":"string",
-      "2":"string",
-      "3":"string"
-    }
-    
+    "gallery"  :  ["cesta","cesta","cesta"]
   }
   
 ], "pois":[
@@ -200,12 +180,7 @@
         "instagram":"string",
         "twitter":"string"
       },
-      "portals" :  
-      {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-      } 
+      "portals" : ["string","string","string"]
     },
     "agenda" : 
     {
@@ -213,12 +188,7 @@
       "link":"string"  
     },
     "description" : "string",
-    "gallery"  : 
-    {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-    }
+    "gallery"  :  ["cesta","cesta","cesta"]
   }
   
 ], "schools":[
@@ -259,12 +229,7 @@
         "instagram":"string",
         "twitter":"string"
       },
-      "portals" :  
-      {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-      }
+      "portals" :  ["string","string","string"]
       
     },
     "agenda" : 
@@ -273,12 +238,7 @@
       "link":"string"
     },
     "description" : "string",
-    "gallery"  :  
-    {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-    }, 
+    "gallery"  :  ["cesta","cesta","cesta"], 
     "departments" : {
       "1":{
         "dep_name":"string",
@@ -335,12 +295,7 @@
         "instagram":"string",
         "twitter":"string"
       },
-      "portals" :  
-      {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-      }
+      "portals" :  ["string","string","string"]
       
     },
     "agenda" : 
@@ -349,21 +304,14 @@
       "link":"string"
     },
     "description" : "string",
-    "gallery"  :  
-    {
-        "1":"string",
-        "2":"string",
-        "3":"string"
-    }, 
+    "gallery"  :   ["cesta","cesta","cesta"], 
     "capacity" : 
     {
       "men":"int",
       "women":"int",
       "waiters":"int"  
     } 
-  }
-    
-  
+  }  
 ],"map":[
   {
     "event_id" : 0,
